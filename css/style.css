@@ -1,0 +1,128 @@
+ /* General styling */
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Header Section */
+.header-section {
+    background-color: #5a73ff;
+    color: white;
+    padding: 80px 0;
+    position: relative;
+}
+
+/* Heading Styling */
+.score-box {
+    background-color: #1d2b54;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.score-box h2 {
+    font-size: 36px;
+}
+
+.score-details {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.reach-goals {
+    margin-top: 50px;
+}
+
+.submit-form {
+    background-color: #0056b3;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.powered-by {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.img{
+    background-image: url(1.png);
+    background-size: cover;
+    width: 100%;
+    height: 667px;
+}
+.img2
+{
+    background-image: url(2.webp);
+    background-size: cover;
+    width: 89%;
+    height: 586px;
+    
+
+}
+.img3
+{
+    background-image: url(3.webp);
+    background-size: cover;
+    width: 90%;
+    height: 586px;
+   
+}
+.img5{
+    background-image: url(5.png);
+    background-size: cover;
+    width: 100%;
+    height: 586px; 
+}
+
+.info-section {
+    background-color: #4A90E2; /* Matches the blue background */
+    padding: 40px;
+    border-radius: 8px;
+    color: white;
+}
+
+.info-section h2 {
+    font-weight: bold;
+}
+
+.info-section p {
+    font-size: 18px;
+}
+
+.submit-button {
+    background-color: #ffffff;
+    color: #4A90E2;
+    border-radius: 50px;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+}
+
+.submit-button:hover {
+    background-color: #f0f0f0;
+}
+
+.bjLeTS {
+    width: 165px;
+    height: 38px;
+    background-image: url(https://d3syewzhvzylbl.cloudfront.net/images/affiliate_badge_logo.png);
+    background-size: cover;
+    padding: 0px 0px;
+    position: fixed;
+    bottom: 4px;
+    right: 0px;
+    z-index: 3;
+    color: white;
+    padding-left: 40px;
+    font-size: 13px;
+    
+}
